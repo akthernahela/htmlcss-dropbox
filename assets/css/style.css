@@ -46,6 +46,10 @@ h2{
     padding-bottom: 50px;
 }
 
+ul{
+    list-style: none;
+}
+
 /* #region header*/
 
 header{
@@ -134,8 +138,9 @@ h1{
 
 .container-down{
     width: 60%;
+    padding: 50px 80px;
     margin: auto;
-    padding-top: 50px;
+    background-color: bisque;
 }
 
 .billing{
@@ -149,6 +154,19 @@ h1{
 .own-choice{
     padding-right: 60px;
 }
+
+.content-window{
+    padding-top: 50px;
+    
+}
+
+.container-products{
+    justify-content: space-between;
+    display: flex;
+    width: calc (100% / 3);
+}
+
+
 
 /* #endregion container-down*/
 
