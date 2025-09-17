@@ -48,7 +48,10 @@ h2{
 
 ul{
     list-style: none;
+    align-items: center;
 }
+
+
 
 /* #region header*/
 
@@ -168,25 +171,26 @@ h1{
 
 .icon-title{
     text-align: center;
-    padding: 2px;
+    font-size: small;
+    padding: 5px;
 }
 
 .single,
 .team,
 .company{
-    padding: 10px;
     border: 1px solid;
     border-color: rgb(216, 216, 216);
+    margin: auto;
 }
 
 .category{
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding: 30px 20px;
     line-height: 1.5rem;
-    border-top: 1px solid;
+    
 
     h3{
         font-size: 25px;
+        padding-bottom: 10px;
     }
     b{
         font-size: 15px;
@@ -199,6 +203,24 @@ h1{
 
 .details{
     line-height: 30px;
+    padding: 30px 20px;
+    font-size: small;
+
+    .limits{
+        padding: 10px;
+    }
+    .default{
+        height: 45px;
+       width: 200px;
+    }
+    
+}
+h4{
+        padding: 30px 0px;
+}
+
+.font-check{
+    color: #0061fe;
 }
 
 
