@@ -6,11 +6,64 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+}
+
 /* utilities */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.debug{
+    background-color: aqua;
+    
+    header{
+        background-color: blue;
+    }
+}
+
+.d-flex{
+    display: flex;
+}
+
+.access{
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    background-color: white;   
+}
+
+.default{
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    background-color: #0061fe;
+}
 
 /* #region header*/
 
+header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
 
+.logo{
+    padding-right: 20px;
+}
+    
+.left-control,
+.right-control{
+    
+    a{
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+    }
+}
 
 /* #endregion header */
 
