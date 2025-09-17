@@ -41,6 +41,11 @@ body{
     color: white;
 }
 
+h2{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
 /* #region header*/
 
 header{
@@ -71,15 +76,16 @@ header{
 
 /* #region main*/
 
+/* #region container */
 .container{
     border-bottom: 1px solid;
     border-color: rgb(229, 227, 227);
-    height: 600px;
+    height: 680px;
 }
 
 .container-small{
     background-color: #b4d0e6;
-    height: 500px;
+    height: 570px;
     position: relative;
 }
 
@@ -122,6 +128,29 @@ h1{
     bottom: 0px;
     font-size: 40px;
 }
+/* #endregion container */
+
+/* #region container-down */
+
+.container-down{
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.billing{
+    color: #0061fe;
+}
+
+.billing1{
+    color: rgb(216, 216, 216);
+}
+
+.own-choice{
+    padding-right: 60px;
+}
+
+/* #endregion container-down*/
 
 /* #endregion main*/
 
