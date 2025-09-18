@@ -245,6 +245,28 @@ h1{
     color: #0061fe;
 }
 
+/* #region partner */
+
+.partner{
+   display: flex;
+   justify-content: space-around;
+}
+.w-60{
+    width: 60%;
+}
+.w-40{
+    width: 40%;
+    padding: 40px;
+
+    .partner-btn{
+        height: 40px;
+        width: 125px;
+        background-color: white;
+    }
+}
+
+/* #endregion partner */
+
 /* #endregion main*/
 
 /* #region footer*/
