@@ -317,7 +317,8 @@ h1{
 footer{
     background-color: black;
     color: white;
-    height: 800px;
+    height: 600px;
+    position: relative;
 }
 
 .container-footer{
@@ -342,7 +343,19 @@ footer{
     a{
         text-decoration: none;
         color: white;
+        font-size: small;
     }
 }
+
+.language{
+    padding-top: 150px;
+    span{
+        border-top: 1px solid;
+        padding-top: 40px;
+        font-size: small;
+    }
+}
+
+
 
 /* #endregion footer*/
