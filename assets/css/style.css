@@ -162,6 +162,20 @@ h1{
 .row{ 
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
+    .icon-title{
+        border-bottom: 1px solid;
+        text-align: center;
+    }
+    h3{
+        padding-top: 30px;
+    }
+    .category{
+        padding-bottom: 40px;
+        p{
+            color: gray;
+        }
+    }
 }
 
 .col-33{
@@ -172,11 +186,12 @@ h1{
 
 .col-100{
     width: 100%;
+    padding: 1rem;
     border: 1px solid;
 }
 
 .container-plans{
-    padding: 50px;
+    padding-top: 50px;
 }
 
 /* #endregion main*/
