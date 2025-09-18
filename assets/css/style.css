@@ -51,6 +51,10 @@ ul{
     align-items: center;
 }
 
+h4{
+    padding: 10px 0px;
+}
+
 
 /* #region header*/
 
@@ -240,8 +244,6 @@ h1{
 .font-check{
     color: #0061fe;
 }
-
-
 
 /* #endregion main*/
 
