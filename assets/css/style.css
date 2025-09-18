@@ -230,6 +230,17 @@ h1{
     height: 600px;
 }
 
+.icon-title{
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding: 10px;
+}
+
+.font-check{
+    color: #0061fe;
+}
+
 
 
 /* #endregion main*/
