@@ -51,7 +51,9 @@ ul{
     align-items: center;
 }
 
-
+[class^=col-]{
+    height: 300px;
+}
 
 /* #region header*/
 
@@ -158,8 +160,20 @@ h1{
 }
 
 
-
 /* #endregion container-down*/
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33{
+    width: calc ( 100% / 3 );
+}
+
+.col-100{
+    width: 100%;
+}
 
 /* #endregion main*/
 
