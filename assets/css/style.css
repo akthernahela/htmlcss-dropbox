@@ -283,8 +283,17 @@ h1{
 }
 
 .col-grid{
-    width: calc ( 100% / 3 );
+    width: calc(100% / 3 );
     padding: 1rem;
+    img{
+        width: 300px;
+    }
+    h3{
+        padding: 20px 0px;
+    }
+    p{
+        font-size: small;
+    }
 }
 
 /* #endregion grid */
