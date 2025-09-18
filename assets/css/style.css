@@ -265,7 +265,29 @@ h1{
     }
 }
 
+
+
 /* #endregion partner */
+
+/* #region grid */
+
+.container-grid{
+    width: 60%;
+    margin: auto;
+}
+
+.row-grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.col-grid{
+    width: calc ( 100% / 3 );
+    padding: 1rem;
+}
+
+/* #endregion grid */
 
 /* #endregion main*/
 
