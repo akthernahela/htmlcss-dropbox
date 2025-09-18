@@ -169,13 +169,31 @@ h1{
     }
     h3{
         padding-top: 30px;
+        padding-bottom: 20px;
     }
     .category{
         padding-bottom: 40px;
         p{
             color: gray;
         }
+        .solutions{
+            color: black;
+            padding-top: 30px;
+            font-size: 15px;
+        }
     }
+}
+
+.limits,
+.limits-big{
+    text-align: center;
+}
+.big-b{
+    border: 1px solid transparent;
+    background-color: #0061fe;
+    color: white;
+    height: 50px;
+    width: 200px;
 }
 
 .col-33{
@@ -188,6 +206,14 @@ h1{
     width: 100%;
     padding: 1rem;
     border: 1px solid;
+}
+.position-move{
+    position: relative;
+}
+.limits-big{
+    position: absolute;
+    top: 50px;
+    left: 520px;
 }
 
 .container-plans{
