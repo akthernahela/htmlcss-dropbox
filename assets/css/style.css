@@ -51,9 +51,6 @@ ul{
     align-items: center;
 }
 
-[class^=col-]{
-    height: 300px;
-}
 
 /* #region header*/
 
@@ -142,7 +139,7 @@ h1{
 /* #region container-down */
 
 .container-down{
-    width: 60%;
+    width: 70%;
     padding: 50px 80px;
     margin: auto;
 }
@@ -162,13 +159,14 @@ h1{
 
 /* #endregion container-down*/
 
-.row{
+.row{ 
     display: flex;
     flex-wrap: wrap;
 }
 
 .col-33{
-    width: calc ( 100% / 3 );
+    width: calc( 100% / 3);
+    padding: 1rem;
 }
 
 .col-100{
